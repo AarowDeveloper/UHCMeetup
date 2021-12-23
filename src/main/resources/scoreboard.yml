@@ -1,0 +1,48 @@
+LOBBY:
+  TITLE: "&5&lSurfMeetup &7<line> &fLobby"
+  SCENARIO-FORMAT: "&7<bullet> &3#<place> &f<scenario>&7: &d<votes>"
+  LINES:
+    - '&7&m---------------------'
+    - '&fPlayers&7: &d<players>'
+    - '&fStarting in&7: &d<seconds>'
+    - ''
+    - '&d&lScenarios'
+    - '<scenarios>'
+    - '&7&m---------------------'
+STARTING:
+  TITLE: "&5&lSurfMeetup &7<line> &fStarting"
+  SCENARIO-FORMAT: "&7<bullet> &3#<place> &f<scenario>&7: &d<votes>"
+  LINES:
+    - '&7&m---------------------'
+    - '&fPlayers&7: &d<players>'
+    - '&fStarting in&7: &d<seconds>'
+    - ''
+    - '&d&lScenarios'
+    - '<scenarios>'
+    - '&7&m---------------------'
+INGAME:
+  TITLE: "&5&lSurfMeetup &7<line> &fPlaying"
+  LINES:
+    - '&7&m---------------------'
+    - '&fGame Time&7: &d<seconds>'
+    - '&fRemaining&7: &d<alive>&7/&d<initial>'
+    - '&fBorder&7: &d<bordersize> @borderInfo'
+    - '&fKills&7: &d<kills>'
+    - '&7&m---------------------'
+  LINES-NO-CLEAN:
+    - '&7&m---------------------'
+    - '&fGame Time&7: &d<seconds>'
+    - '&fRemaining&7: &d<alive>&7/&d<initial>'
+    - '&fBorder&7: &d<bordersize> @borderInfo'
+    - '&fKills&7: &d<kills>'
+    - ''
+    - '&fNo Clean&7: &c<nocleanseconds>'
+    - '&7&m---------------------'
+FINISHING:
+  TITLE: "&5&lSurfMeetup &7<line> &fFinishing"
+  LINES:
+    - '&7&m---------------------'
+    - '&fWinner&7: &d<winner>'
+    - '&fTotal Kills&7: &d<winnerkills>'
+    - '&fRestarting&7: &d<seconds>'
+    - '&7&m---------------------'

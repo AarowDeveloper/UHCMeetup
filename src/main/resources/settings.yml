@@ -1,0 +1,28 @@
+# insert your licence key here
+LICENCE-KEY: ""
+
+MONGO:
+  HOST: "localhost"
+  PORT: 27017
+  DATABASE: "uhcMeetup"
+  AUTHENTICATION:
+    ENABLED: false
+    USERNAME: ""
+    PASSWORD: ""
+BUNGEECORD:
+  ENABLED: false
+  FALLBACK-SERVER: "lobby"
+WORLD: "uhcmeetup_world"
+LOBBY-WORLD: "uhcmeetup_lobby"
+PRACTICE-ENABLED: false
+### When game starts in this case 2 scenarios will be enabled (2 with most votes)
+SCENARIOS-TO-ENABLE: 2
+MINIMUM-PLAYERS-TO-START: 2
+COUNTDOWN-START: 30
+BORDER:
+  SIZE: 300
+  ### Border will shrink firstly to 300, then to 200, then to 50, and then to 25
+  SHRINKS: "200,100,50,25"
+  SHRINK-EVERY: 180 # In Seconds (180 seconds is 3 minutes)
+### 30 Seconds after game has been finished (someone has won), server will restart
+RESTART-TIME: 30

@@ -1,0 +1,22 @@
+ONLY_PLAYER_COMMAND: "&cOnly players may execute this command."
+JOIN-MESSAGE: "&5<player> &djoined the game. &7(&e<players>&7/&e<maxPlayers>&7)"
+LEAVE-MESSAGE: "&5<player> &dleft the game. &7(&e<players>&7/&e<maxPlayers>&7)"
+GAME:
+  ALREADY-STARTED: "&cSorry, you cannot do that while game is running."
+SCENARIO:
+  ALREADY-VOTED: "&cYou already voted for this scenario."
+START:
+  BROADCAST-ON: "30,20,15,10,5,4,3,2,1"
+  MESSAGE: "&dThe game will begin in &e<seconds> &dseconds."
+  CANCELED: "&cNot enough players to begin the game."
+BORDER:
+  SHRUNK: "&dThe border has shrunk to &e<radius>&dx&e<radius>&d."
+  WILL-SHRINK-ON: "120,60,30,15,10,5,4,3,2,1"
+  WILL-SHRINK: "&dThe border will shrink to &e<radius>&dx&e<radius> &din &e<time> &d<timeType>." # <timeType> basically gets time Type (minutes or seconds)
+  PLAYER-TELEPORTED: "&cYou were shrunk into the border."
+WINNER-ANNOUNCE:
+  - '&7&m-----------------&7[ &5&lGAME FINISHED &7]&7&m-----------------'
+  - '&fWinner&7: &d<winner>'
+  - '&fTotal Kills&7: &d<winnerkills>'
+  - '&fTotal Wins&7: &d<winnerwins>'
+  - '&7&m-----------------&7[ &5&lGAME FINISHED &7]&7&m-----------------'

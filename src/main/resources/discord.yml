@@ -1,0 +1,17 @@
+ENABLED: true
+TOKEN: "OTE3NDY0MDIzOTE2NzQ4ODYw.Ya5E9A.rFu3grKiYUKli3-HYtnoeX2t8pI"
+CUSTOM-STATUS:
+  # Available types: WATCHING and PLAYING
+  TYPE: WATCHING
+  NAME: "astatine.network"
+COMMANDS:
+  STATS:
+    ENABLED: true
+    EMBED: true
+    MESSAGE:
+      - '<player> Stats'
+      - ''
+      - 'Kills: <kills>'
+      - 'Wins: <wins>'
+      - 'Highest KillStreak: <killstreak>'
+      - 'Elo: <elo>'

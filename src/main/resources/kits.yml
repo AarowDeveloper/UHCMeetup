@@ -1,0 +1,39 @@
+KITS:
+  1:
+    ARMOR:
+      BOOTS:
+        MATERIAL: DIAMOND_BOOTS
+        AMOUNT: 1
+        DATA: 0
+        ENCHANTMENTS:
+          PROTECTION_ENVIRONMENTAL:
+            LEVEL: 2
+      LEGGINGS:
+        MATERIAL: DIAMOND_LEGGINGS
+        AMOUNT: 1
+        DATA: 0
+        ENCHANTMENTS:
+          PROTECTION_ENVIRONMENTAL:
+            LEVEL: 2
+      CHESTPLATE:
+        MATERIAL: DIAMOND_CHESTPLATE
+        AMOUNT: 1
+        DATA: 0
+        ENCHANTMENTS:
+          PROTECTION_ENVIRONMENTAL:
+            LEVEL: 2
+      HELMET:
+        MATERIAL: DIAMOND_HELMET
+        AMOUNT: 1
+        DATA: 0
+        ENCHANTMENTS:
+          PROTECTION_ENVIRONMENTAL:
+            LEVEL: 2
+    INVENTORY:
+      0:
+        MATERIAL: DIAMOND_SWORD
+        AMOUNT: 1
+        DATA: 0
+        ENCHANTMENTS:
+          DAMAGE_ALL:
+            LEVEL: 3

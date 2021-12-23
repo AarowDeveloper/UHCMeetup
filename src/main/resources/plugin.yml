@@ -1,0 +1,12 @@
+name: Astatine
+version: 1.0
+main: me.aarow.astatine.Meetup
+author: Haze Development Team
+commands:
+  vote:
+  leaderboard:
+    aliases: [leaderboards]
+  stats:
+  kit:
+    aliases: [kits, editkits, editkit]
+  staff:

@@ -1,0 +1,271 @@
+VOTE:
+  NAME: "&3Vote &7<line> &eSelect Scenario"
+  ROWS: 5
+  FILL-WITH-GLASS: true
+  TIMEBOMB:
+    NAME: "&dTimeBomb &7<line> &f<timebombvotes>"
+    MATERIAL: CHEST
+    SLOT: 9
+    LORE:
+      - '&7Click here to vote for'
+      - '&7gamemode timebomb.'
+      - ''
+      - '&eCurrent Votes&7: &f<timebombvotes>'
+  FIRELESS:
+    NAME: "&dFireless &7<line> &f<firelessvotes>"
+    MATERIAL: FIRE
+    SLOT: 11
+    LORE:
+      - '&7Click here to vote for'
+      - '&7gamemode fireless.'
+      - ''
+      - '&eCurrent Votes&7: &f<firelessvotes>'
+  WEBCAGE:
+    NAME: "&dWebCage &7<line> &f<webcagevotes>"
+    MATERIAL: WEB
+    SLOT: 13
+    LORE:
+      - '&7Click here to vote for'
+      - '&7gamemode webcage.'
+      - ''
+      - '&eCurrent Votes&7: &f<webcagevotes>'
+  SAFELOOT:
+    NAME: "&dSafeLoot &7<line> &f<safelootvotes>"
+    MATERIAL: ENDER_CHEST
+    SLOT: 15
+    LORE:
+      - '&7Click here to vote for'
+      - '&7gamemode safeloot.'
+      - ''
+      - '&eCurrent Votes&7: &f<safelootvotes>'
+  NOCLEAN:
+    NAME: "&dNoClean &7<line> &f<nocleanvotes>"
+    MATERIAL: DIAMOND_SWORD
+    SLOT: 17
+    LORE:
+      - '&7Click here to vote for'
+      - '&7gamemode noclean.'
+      - ''
+      - '&eCurrent Votes&7: &f<nocleanvotes>'
+  RODLESS:
+    NAME: "&dRodless &7<line> &f<rodlessvotes>"
+    MATERIAL: FISHING_ROD
+    SLOT: 29
+    LORE:
+      - '&7Click here to vote for'
+      - '&7gamemode rodless.'
+      - ''
+      - '&eCurrent Votes&7: &f<rodlessvotes>'
+  BOWLESS:
+    NAME: "&dBowless &7<line> &f<bowlessvotes>"
+    MATERIAL: BOW
+    SLOT: 31
+    LORE:
+      - '&7Click here to vote for'
+      - '&7gamemode bowless.'
+      - ''
+      - '&eCurrent Votes&7: &f<bowlessvotes>'
+  NOFALL:
+    NAME: "&dNoFall &7<line> &f<nofallvotes>"
+    MATERIAL: DIAMOND_BOOTS
+    SLOT: 33
+    LORE:
+      - '&7Click here to vote for'
+      - '&7gamemode nofall.'
+      - ''
+      - '&eCurrent Votes&7: &f<nofallvotes>'
+YOUR-STATS:
+  NAME: "&3Your Stats"
+  ROWS: 5
+  FILL-WITH-GLASS: true
+  KILLS:
+    NAME: "&fKills&7: &d<value>"
+    MATERIAL: DIAMOND_SWORD
+    SLOT: 11
+    LORE:
+      - '&7You are placed &7&o#<place> &7on leaderboards.'
+  WINS:
+    NAME: "&fWins&7: &d<value>"
+    MATERIAL: NETHER_STAR
+    SLOT: 13
+    LORE:
+      - '&7You are placed &7&o#<place> &7on leaderboards.'
+  DEATHS:
+    NAME: "&fDeaths&7: &d<value>"
+    MATERIAL: REDSTONE
+    SLOT: 15
+    LORE:
+      - '&7You are placed &7&o#<place> &7on leaderboards.'
+  KILLSTREAK:
+    NAME: "&fKillStreak&7: &d<value>"
+    MATERIAL: IRON_SWORD
+    SLOT: 29
+    LORE:
+      - '&7You are placed &7&o#<place> &7on leaderboards.'
+  REROLLS:
+    NAME: "&fRerolls&7: &d<value>"
+    MATERIAL: LEASH
+    SLOT: 31
+    LORE:
+      - '&7You are placed &7&o#<place> &7on leaderboards.'
+  ELO:
+    NAME: "&fElo&7: &d<value>"
+    MATERIAL: GLOWSTONE_DUST
+    SLOT: 33
+    LORE:
+      - '&7You are placed &7&o#<place> &7on leaderboards.'
+  VIEW-LEADERBOARDS:
+    NAME: "&3View Leaderboards"
+    MATERIAL: BOOK
+    SLOT: 40
+    LORE:
+      - '&7Click here view leaderboards.'
+VIEW-STATS:
+  NAME: "&3<player>'s Stats"
+  ROWS: 5
+  FILL-WITH-GLASS: true
+  KILLS:
+    NAME: "&fKills&7: &d<value>"
+    MATERIAL: DIAMOND_SWORD
+    SLOT: 11
+    LORE:
+      - '&7This player is placed &7&o#<place> &7on leaderboards.'
+  WINS:
+    NAME: "&fWins&7: &d<value>"
+    MATERIAL: NETHER_STAR
+    SLOT: 13
+    LORE:
+      - '&7This player is placed &7&o#<place> &7on leaderboards.'
+  DEATHS:
+    NAME: "&fDeaths&7: &d<value>"
+    MATERIAL: REDSTONE
+    SLOT: 15
+    LORE:
+      - '&7This player is placed &7&o#<place> &7on leaderboards.'
+  KILLSTREAK:
+    NAME: "&fKillStreak&7: &d<value>"
+    MATERIAL: IRON_SWORD
+    SLOT: 29
+    LORE:
+      - '&7This player is placed &7&o#<place> &7on leaderboards.'
+  REROLLS:
+    NAME: "&fRerolls&7: &d<value>"
+    MATERIAL: LEASH
+    SLOT: 31
+    LORE:
+      - '&7This player is placed &7&o#<place> &7on leaderboards.'
+  ELO:
+    NAME: "&fElo&7: &d<value>"
+    MATERIAL: GLOWSTONE_DUST
+    SLOT: 33
+    LORE:
+      - '&7This player is placed &7&o#<place> &7on leaderboards.'
+  VIEW-LEADERBOARDS:
+    NAME: "&3View Leaderboards"
+    MATERIAL: BOOK
+    SLOT: 40
+    LORE:
+      - '&7Click here view leaderboards.'
+EDIT-KITS:
+  NAME: "&3Edit Kits &7<line> &f<kitamount>"
+  ROWS: 4
+  FILL-WITH-GLASS: true
+  BUTTON:
+    NAME: "&d#<id>"
+    MATERIAL: BOOK
+    LORE:
+      - '&7Click here to edit this kit.'
+  CREATE:
+    NAME: "&dCreate Kit"
+    MATERIAL: PAPER
+    LORE:
+      '&7Click here to create kit.'
+EDIT-KIT:
+  NAME: "&3Editing Kit"
+  CONFIRM:
+    NAME: "&aConfirm Kit Edit"
+    MATERIAL: LEVER
+    LORE:
+      - '&7Click here to confirm kit edit.'
+LEADERBOARDS:
+  NAME: "&3Leaderboards &7<line> &fTop 10"
+  ROWS: 5
+  FILL-WITH-GLASS: true
+  KILLS:
+    NAME: "&3Kills &7<line> &fTop 10"
+    MATERIAL: DIAMOND_SWORD
+    SLOT: 11
+    FORMAT: "&3#<place> &f<player>&7: &d<value>"
+    FORMAT-NOT-SET: "&3#<place> &cNot Taken"
+    LORE:
+      - '&7&m--------------------'
+      - '<leaderboard>'
+      - '&7&m--------------------'
+  WINS:
+    NAME: "&3Wins &7<line> &fTop 10"
+    SLOT: 13
+    MATERIAL: NETHER_STAR
+    FORMAT: "&3#<place> &f<player>&7: &d<value>"
+    FORMAT-NOT-SET: "&3#<place> &cNot Taken"
+    LORE:
+      - '&7&m--------------------'
+      - '<leaderboard>'
+      - '&7&m--------------------'
+  DEATHS:
+    NAME: "&3Deaths &7<line> &fTop 10"
+    SLOT: 15
+    MATERIAL: REDSTONE
+    FORMAT: "&3#<place> &f<player>&7: &d<value>"
+    FORMAT-NOT-SET: "&3#<place> &cNot Taken"
+    LORE:
+      - '&7&m--------------------'
+      - '<leaderboard>'
+      - '&7&m--------------------'
+  KILLSTREAK:
+    NAME: "&3KillStreak &7<line> &fTop 10"
+    SLOT: 29
+    MATERIAL: IRON_SWORD
+    FORMAT: "&3#<place> &f<player>&7: &d<value>"
+    FORMAT-NOT-SET: "&3#<place> &cNot Taken"
+    LORE:
+      - '&7&m--------------------'
+      - '<leaderboard>'
+      - '&7&m--------------------'
+  REROLLS:
+    NAME: "&3Rerolls &7<line> &fTop 10"
+    SLOT: 31
+    MATERIAL: LEASH
+    FORMAT: "&3#<place> &f<player>&7: &d<value>"
+    FORMAT-NOT-SET: "&3#<place> &cNot Taken"
+    LORE:
+      - '&7&m--------------------'
+      - '<leaderboard>'
+      - '&7&m--------------------'
+  ELO:
+    NAME: "&3Elo &7<line> &fTop 10"
+    SLOT: 33
+    MATERIAL: GLOWSTONE_DUST
+    FORMAT: "&3#<place> &f<player>&7: &d<value>"
+    FORMAT-NOT-SET: "&3#<place> &cNot Taken"
+    LORE:
+      - '&7&m--------------------'
+      - '<leaderboard>'
+      - '&7&m--------------------'
+  VIEW-STATS:
+    NAME: "&3View Stats"
+    MATERIAL: PAPER
+    SLOT: 40
+    LORE:
+      - '&7Click here to view your stats.'
+ALIVE-PLAYERS:
+  NAME: "&3Alive Players"
+  BUTTON:
+    NAME: "&d<player>"
+    MATERIAL: SKULL_ITEM
+    LORE:
+      - '&7&m--------------------'
+      - '&fKills&7: &d<kills>'
+      - '&fWins&7: &d<wins>'
+      - ''
+      - '&7this player is placed &7&o#<place>&7 on leaderboards.'
+      - '&7&m--------------------'

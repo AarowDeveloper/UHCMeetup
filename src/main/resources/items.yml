@@ -1,0 +1,63 @@
+EDIT-KITS:
+  NAME: "&7<arrowright> &dEdit Kits &7<arrowleft>"
+  MATERIAL: WATCH
+  SLOT: 3
+  LORE:
+    - '&7Use this to edit kits.'
+VOTE:
+  NAME: "&7<arrowright> &dScenario Vote &7<arrowleft>"
+  MATERIAL: "NETHER_STAR"
+  SLOT: 4
+  LORE:
+    - '&7Use this to vote for gamemode.'
+LEADERBOARDS:
+  NAME: "&7<arrowright> &dLeaderboards &7<arrowleft>"
+  MATERIAL: BOOK
+  SLOT: 8
+  LORE:
+    - '&7Use this to see leaderboards.'
+STATS:
+  NAME: "&7<arrowright> &dView Stats &7<arrowleft>"
+  MATERIAL: PAPER
+  SLOT: 7
+  LORE:
+    - '&7Use this to see your stats.'
+RANDOM-TELEPORT:
+  NAME: "&7<arrowright> &dRandom Teleport &7<arrowleft>"
+  MATERIAL: CARPET
+  DATA: 3
+  SLOT: 0
+  LORE:
+    - '&7Use this to teleport to random player.'
+ALIVE-PLAYERS:
+  NAME: "&7<arrowright> &dAlive Players &7<arrowleft>"
+  MATERIAL: ITEM_FRAME
+  SLOT: 1
+  LORE:
+    - '&7Use this to see alive players.'
+SEE-INVENTORY:
+  NAME: "&7<arrowright> &dSee Inventory &7<arrowleft>"
+  MATERIAL: BOOK
+  SLOT: 2
+  LORE:
+    - '&7Use this to see players inventory.'
+FREEZE:
+  NAME: "&7<arrowright> &dFreeze &7<arrowleft>"
+  MATERIAL: PACKED_ICE
+  SLOT: 3
+  LORE:
+    - '&7Use this to freeze player.'
+VANISH-ON:
+  NAME: "&7<arrowright> &dVanish &7<arrowleft>"
+  MATERIAL: INK_SACK
+  DATA: 10
+  SLOT: 8
+  LORE:
+    - '&7Use this to vanish.'
+VANISH-OFF:
+  NAME: "&7<arrowright> &dVanish &7<arrowleft>"
+  MATERIAL: INK_SACK
+  DATA: 8
+  SLOT: 8
+  LORE:
+    - '&7Use this to unvanish.'
